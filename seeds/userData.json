@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Bobby Test",
+      "email": "bob@hotmail.com",
+      "password": "password123"
+    },
+    {
+      "name": "Michael Tester",
+      "email": "mike@gmail.com",
+      "password": "password321"
+    },
+    {
+      "name": "Ray Charles",
+      "email": "ray0@aol.com",
+      "password": "password15243"
+    }
+  ]
