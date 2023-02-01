@@ -1,14 +1,14 @@
 [
     {
-      "title": "Handlebars or React?",
-      "content": "Which one do you prefer for templating on the front-end?"
+      "post_title": "Handlebars or React?",
+      "post_body": "Which one do you prefer for templating on the front-end?"
     },
     {
-      "title": "Authentication vs. Authorization",
-      "content": "Authentication confirms a user's identiy. Authorization simply allows access to a system or restricted portion of a system."
+      "post_title": "Authentication vs. Authorization",
+      "post_body": "Authentication confirms a user's identiy. Authorization simply allows access to a system or restricted portion of a system."
     },
     {
-      "title": "ORMs and ODMS",
-      "content": "Are ORMS and ODMS essentially the same thing? How are they different?"
+      "post_title": "ORMs and ODMS",
+      "post_body": "Are ORMS and ODMS essentially the same thing? How are they different?"
     }
   ]

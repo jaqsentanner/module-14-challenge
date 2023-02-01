@@ -5,7 +5,7 @@ const exphbs = require('express-handlebars');
 const routes = require('./controller');
 const helpers = require('./utils/helpers');
 const sequelize = require('./config/connection');
-const SequelizeStore = require('connect-session-sequelize');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
 const PORT = process.env.PORT || 3001; 
@@ -39,5 +39,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
 
 sequelize.sync({ force:false }).then(() => {
-    app.listen(PORT, () => console.log('Listening'));
+    app.listen(PORT, () => console.log('Listening at http://localhost:3001'));
 });
